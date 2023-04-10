@@ -120,3 +120,42 @@ a{
 a:hover{
     color: orangered;
 }
+
+#services{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+#services h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+li{
+    margin: 15px;
+    display: block;
+    background-color: white;
+    padding: 30px;
+    width: 100px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 445px;
+    margin-right: 50px;
+}
+
+li:nth-child(1){
+    background-color: orangered;
+}
+
+li:hover{
+    box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px;
+}
